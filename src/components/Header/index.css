@@ -1,0 +1,127 @@
+.nav-bg-container {
+  background-color: #040306;
+  width: 98px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-website-logo {
+  width: 82px;
+  height: 33px;
+  margin-top: 30px;
+}
+
+.nav-container-1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.nav-container-2 {
+  display: none;
+}
+
+.logout-button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.href-link-1 {
+  text-decoration: none;
+}
+
+.logout-logo {
+  color: #9b9b9b;
+}
+
+.logout-name {
+  color: #9b9b9b;
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.side-navbar-container {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-container-1 {
+    display: none;
+  }
+
+  .nav-bg-container {
+    background-color: #040306;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+  }
+
+  .nav-container-2 {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .nav-website-logo {
+    width: 64px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .menu-bar-button {
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+
+  .side-navbar-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logout-logo {
+    color: #ffffff;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+
+  .open-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  .href-link-2 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 7px;
+  }
+  .logout-name {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+}

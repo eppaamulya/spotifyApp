@@ -1,0 +1,8 @@
+.categories-bg-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #181818;
+  background-size: cover;
+  padding-bottom: 50px;
+  width: 100%;
+}
