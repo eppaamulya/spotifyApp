@@ -1,0 +1,259 @@
+.playlists-bg-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #181818;
+  background-size: cover;
+  padding-bottom: 50px;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.columns-row {
+  width: 100vw;
+  margin: 30px 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.active-class {
+  background-color: #303030;
+  padding: 4px;
+}
+
+.column-name-6 {
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  width: 100px;
+  text-align: center;
+}
+.column-name-7 {
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  width: 80px;
+  text-align: center;
+}
+
+.column-name-8 {
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  width: 80px;
+  text-align: center;
+}
+
+.column-name-9 {
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  width: 80px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    min-width: 250px;
+    align-items: center;
+    margin: 20px;
+    margin-left: 40px;
+  }
+
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .play-pause-button {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: none;
+  }
+  .play-icon {
+    font-size: 37px;
+    color: #ffffff;
+  }
+
+  .pause-icon {
+    font-size: 37px;
+    color: #ffffff;
+  }
+
+  .bottom-time {
+    display: none;
+  }
+
+  .bottom-seek {
+    display: none;
+  }
+
+  .vol-icon {
+    display: none;
+  }
+
+  .bottom-volume {
+    display: none;
+  }
+
+  .column-name-6 {
+    display: none;
+  }
+
+  .column-name-7 {
+    display: none;
+  }
+
+  .column-name-8 {
+    display: none;
+  }
+
+  .column-name-9 {
+    display: none;
+  }
+
+  .columns-row {
+    display: none;
+  }
+
+  .music-container {
+    height: 90px;
+    margin-left: 97px;
+    background-color: #181818;
+    border-top: 2px solid #9b9b9b;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 7px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .playlist-list-container-1 {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 10px 0px 50px 0px;
+    width: 768px;
+    margin: 0px;
+  }
+
+  .playlist-list-container-2 {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .playlists-bg-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #181818;
+    background-size: cover;
+    padding-bottom: 50px;
+    width: 768px;
+    height: 100vh;
+  }
+}
+
+.playlist-list-item-lg {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.playlist-list-item-md {
+  display: none;
+}
+
+.columns-row-1 {
+  width: 100vw;
+  height: 45px;
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*.span-name-lg {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: -100px;
+  padding-left: 0px;
+  min-width: 60px;
+  width: 100px;
+}
+
+.span-album-name-lg {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: -100px;
+  padding-left: 0px;
+  min-width: 60px;
+  width: 130px;
+}
+
+.span-duration-lg {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: -100px;
+  padding-left: 0px;
+  min-width: 60px;
+  width: 100px;
+}
+
+.span-artist-lg {
+  color: #ffffff;
+  font-size: 16px;
+  min-width: 60px;
+  margin-left: -100px;
+  padding-left: 0px;
+  width: 100px;
+}
+
+.span-date-lg {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: -60px;
+  min-width: 60px;
+  padding-left: 0px;
+  width: 100px;
+}
+
+.album-thumbnail {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+} */
+
+.playlists-top-container-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-width: 760px;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+}

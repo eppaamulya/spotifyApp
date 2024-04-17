@@ -1,0 +1,150 @@
+.app-bg-login-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://res.cloudinary.com/dq9pyd1fh/image/upload/v1711019339/zxevutsxbjtvbj5lg3ef.png');
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+.app-login-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  opacity: 0.95;
+  width: 456px;
+  height: 433px;
+  margin-top: 296px;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 383px;
+}
+
+.login-website-logo {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 148px;
+  height: 63px;
+}
+
+.login-form-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-heading {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.login-form-bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 236px;
+}
+
+.label-username {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.input-username {
+  width: 408px;
+  font-size: 15px;
+  padding-left: 20px;
+  height: 48px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-button {
+  width: 408px;
+  height: 48px;
+  background-color: #1db954;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-error {
+  color: #ff0000;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-login-container {
+    width: 296px;
+    height: 337px;
+    margin-top: 151px;
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  .login-form-container {
+    width: 201px;
+    height: 265px;
+  }
+
+  .login-website-logo {
+    width: 100px;
+    height: 42px;
+  }
+
+  .login-form-heading {
+    font-size: 28px;
+  }
+
+  .login-form-bottom-container {
+    width: 201px;
+    height: 148px;
+  }
+
+  .label-username {
+    font-size: 10px;
+  }
+
+  .input-username {
+    width: 201px;
+    height: 28px;
+    border-radius: 2px;
+    font-size: 10px;
+    padding-left: 8px;
+  }
+
+  .login-button {
+    width: 95px;
+    height: 50px;
+    padding: 12px, 24px, 12px, 24px;
+    margin-top: 10px;
+    font-size: 12px;
+    align-self: center;
+  }
+
+  .login-error {
+    font-size: 10px;
+  }
+}

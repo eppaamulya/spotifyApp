@@ -1,0 +1,37 @@
+.list-item {
+  margin: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.href-link {
+  text-decoration: none;
+}
+
+.home-image {
+  width: 166px;
+  height: 166px;
+  border-radius: 8px;
+}
+
+.home-name {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 16px;
+  width: 150px;
+  line-height: 25px;
+}
+
+.category-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 16px;
+  width: 150px;
+}
+
+.category-name {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 16px;
+  width: 150px;
+}

@@ -1,0 +1,39 @@
+.back-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 40px;
+  margin-left: 20px;
+  margin-top: 35px;
+  align-items: center;
+  align-self: center;
+}
+
+.back-button-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.back-arrow {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.back-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .back-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -250px;
+    margin-top: 35px;
+    align-items: center;
+  }
+}
